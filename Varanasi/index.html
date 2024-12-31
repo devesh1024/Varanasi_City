@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varanasi - The Spiritual City</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gloock', serif;
+        }
+        body {
+            background-color: #f7f3e9;
+            color: #333;
+        }
+        header {
+            background-image: url('https://i.pinimg.com/564x/59/09/8f/59098fabd1513e48f7449ae89f057a7a.jpg'); 
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6); 
+        }
+        header h1 {
+            z-index: 1;
+            font-size: 4em;
+            font-weight: bold;
+            text-shadow: 2px 2px #000;
+        }
+        header p {
+            z-index: 1;
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            z-index: 10;
+            transition: all 0.3s ease;
+        }
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+        section {
+            padding: 80px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .grid-item {
+            width: 300px;
+            margin: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .grid-item:hover {
+            transform: scale(1.05);
+        }
+        .grid-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .grid-item h3 {
+            font-size: 1.5em;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+        }
+        .grid-item p {
+            padding: 15px;
+            font-size: 1em;
+        }
+        section#events {
+            padding: 80px 20px;
+            text-align: center;
+        }
+        section#events h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .event-item {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #ffcc00;
+            transition: background-color 0.3s ease;
+        }
+        .event-item:hover {
+            background-color: #ffcc00;
+            color: white;
+        }
+        .event-item h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .event-item p {
+            font-size: 1em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        footer p {
+            font-size: 1em;
+        }
+        @media (max-width: 768px) {
+            .grid {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .grid-item {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Welcome to Varanasi</h1>
+    <p>The Spiritual City of Lord Shiva</p>
+</header>
+<nav>
+    <ul>
+        <li><a href="#about">About Varanasi</a></li>
+        <li><a href="#temples">Temples</a></li>
+        <li><a href="#ghats">Ghats</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#events">Events</a></li>
+    </ul>
+</nav>
+<section id="about">
+    <h2>About Varanasi</h2>
+    <p>Varanasi, also known as Kashi, is a sacred city in India, renowned for its deep spiritual significance. Situated on the banks of the Ganges River, it is considered one of the oldest continuously inhabited cities in the world. For Hindus, Varanasi holds immense religious importance as it is believed to be the abode of Lord Shiva. Pilgrims flock here to perform rituals, seek blessings, and attain moksha (liberation from the cycle of birth and death).
+
+        The city is a tapestry of ancient temples, ghats, and narrow winding lanes. The ghats, especially Dashashwamedh Ghat and Manikarnika Ghat, are iconic spots where devotees engage in sacred baths and cremation rites, respectively. The daily Ganga Aarti, a devotional ritual involving fire and chanting, is a mesmerizing spectacle that attracts visitors from around the globe.
+        
+        Beyond its spiritual allure, Varanasi is a hub of culture, art, and learning. The city has nurtured many renowned musicians, poets, and scholars. Sarnath, located nearby, is another significant spiritual site where Buddha delivered his first sermon. In Varanasi, the air is thick with devotion, and every corner resonates with an ancient, timeless spirituality that leaves a lasting impression on the soul.</p>
+</section>
+<section id="temples">
+    <h2>Temples of Varanasi</h2>
+    <div class="grid">
+        <div class="grid-item">
+            <img src="/images/Kashi Vishwanath Dham.jpeg" alt="Kashi Vishwanath Temple">
+            <h3>Kashi Vishwanath Temple</h3>
+            <p>Also known as the Golden Temple, it is dedicated to Lord shiva, the presiding deity of the city. Varanasi is Said to be the point at which the first jyotirlinga, the fiery pillar of light by which shiva manifested has supremacy over others gods, broke through the Earth’s crust and flared towards the heavens. More than the Gaths and even the Ganga, the Shivalinga installed in the temple remains the devotional focus of Varanasi.</p>
+        </div>
+        <div class="grid-item">
+            <img src="/images/Manas Mandir Varanasi_.jpeg" alt="Tulsi Manas Mandir">
+            <h3>Tulsi Manas Mandir</h3>
+            <p>Constructed by family of Varanasi, this modern temple is dedicated to Lord Rama. It is situated at the place Where Tulisdas, the great medieval seer, lived and wrote the epic “Shri Ramcharitmanas”, which narrates the life of Lord Rama, the hero of the Ramayana. Verses from Tulidas’s epic are inscribed on the walls.</p>
+        </div>
+        <div class="grid-item">
+            <img src="/images/download.jpeg" alt="Kal Bhairav Temple">
+            <h3>Kal Bhairav Temple</h3>
+            <p>Devotees believe that Kal Bhairav, the fearsome form of Shiva, protects the city from all harm. Also, God KalBhairav is believed as “Kotwal Of Varanasi” , without his permission no one can stay in Kashi.</p>
+        </div>
+        <div class="grid-item">
+            <img src="/images/SANKAT MOCHAN MANDIR.jpeg" alt="Sankat Mochan Mandir">
+            <h3>Sankat Mochan Mandir</h3>
+            <p>Besides the Assi river stream, on the way of Durga Temple to Banaras Hindu Temple this well known temple of Lord Hanuman is situated. Lord Hanuman is also known as “Sankatmochan” the god who protects from the troubles. This temple is founded by Goswami Tulsidas. This temple is also known as “Monkey” temple, as lot of monkeys are there inside the premises.</p>
+        </div>
+    </div>
+</section>
+<section id="ghats">
+    <h2>Ghats of Varanasi</h2>
+    <div class="grid">
+        <div class="grid-item">
+            <img src="/images/dashaswamedh ghat.jpg" alt="Dashashwamedh Ghat">
+            <h3>Dashashwamedh Ghat</h3>
+            <p>The most important ghat where the famous Ganga Aarti takes place every evening.</p>
+        </div>
+        <div class="grid-item">
+            <img src="/images/Varanasi Manikarnika Ghat.jpeg" alt="Manikarnika Ghat">
+            <h3>Manikarnika Ghat</h3>
+            <p>A sacred ghat for cremations, symbolizing the cycle of life and death in Hindu tradition.</p>
+        </div>
+        <div class="grid-item">
+            <img src="/images/Assi Ghat, Varanasi.jpeg" alt="Assi Ghat">
+            <h3>Assi Ghat</h3>
+            <p>A peaceful ghat located at the confluence of the Ganges and Assi rivers, popular among pilgrims.</p>
+        </div>
+        <div class="grid-item">
+            <img src="/images/Tulsi Ghat.jpeg" alt="Tulsi Ghat">
+            <h3>Tulsi Ghat</h3>
+            <p>Named after the great saint Tulsidas, this ghat is known for its connection to Ramayana.</p>
+        </div>
+    </div>
+</section>
+<section id="food">
+    <h2>Food of Varanasi</h2>
+    <div class="grid">
+        <div class="grid-item">
+            <img src="/images/banaras.jpeg" alt="Banarasi Paan">
+            <h3>Banarasi Paan</h3>
+            <p>The iconic paan of Varanasi, filled with unique flavors and spices.</p>
+        </div>
+        <div class="grid-item">
+            <img src="/images/Kachori shabji.jpeg" alt="Kachori Sabzi">
+            <h3>Kachori Sabzi</h3>
+            <p>A popular breakfast dish in Varanasi, served with spicy and flavorful sabzi.</p>
+        </div>
+        <div class="grid-item">
+            <img src="/images/Malaiyo.jpeg" alt="Malaiyo">
+            <h3>Malaiyo</h3>
+            <p>A seasonal sweet dish, prepared from milk froth and flavored with saffron and cardamom.</p>
+        </div>
+        <div class="grid-item">
+            <img src="/images/Lassi Varanasi.jpeg" alt="Lassi">
+            <h3>Lassi</h3>
+            <p>Thick, creamy, and refreshing lassi from the famous Ramnagar area in Varanasi.</p>
+        </div>
+    </div>
+</section>
+<section id="events">
+    <h2>Upcoming Events in Varanasi</h2>
+    <div class="event-item">
+        <h3>Deepawali</h3>
+        <p>Join us for a soul-stirring Deepawali celebration near the sacred banks of the holy Ganga in Varanasi.</p>
+    </div>
+    <div class="event-item">
+        <h3>Ganga Aarti</h3>
+        <p>Experience the mesmerizing evening aarti on the ghats of the Ganges, a spiritual spectacle of light and sound.</p>
+    </div>
+    <div class="event-item">
+        <h3>Shivratri Festival</h3>
+        <p>Join the grand celebration of Maha Shivratri at Kashi Vishwanath Temple, dedicated to Lord Shiva.</p>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2024 Varanasi City</p>
+</footer>
+
+</body>
+</html>
